@@ -15,8 +15,11 @@
 }
 
 body {
-    background-image: url("https://t3.ftcdn.net/jpg/07/35/44/76/360_F_735447660_Mb1mTmfff8EhrRuornYjGkE9JlGUk4lP.jpg");
-    font-family: Arial, sans-serif;
+  background-image: url("https://t3.ftcdn.net/jpg/07/35/44/76/360_F_735447660_Mb1mTmfff8EhrRuornYjGkE9JlGUk4lP.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  font-family: Arial, sans-serif;
 }
 
 #container {
