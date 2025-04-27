@@ -28,28 +28,24 @@ img {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 5%;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr); /* Creates 8 equal-width columns */
-  grid-gap: 0px;
 }
 
 .row {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr); /* Ensures each row has 8 columns */
-  grid-gap: 0px;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  clear: both;
 }
 
 .white, .black {
   border: 1px solid black;
+  width: 12.5%; /* Adjusted to 12.5% for 8 equal columns */
   height: 60px;
+  float: left;
 }
 
-.white {
-  background-color: white;
-}
-
-.black {
-  background-color: #787878;
+#clear {
+  clear: both;
 }
 
 #footer {
