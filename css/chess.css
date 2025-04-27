@@ -1,35 +1,37 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-    font-family: 'Just Letters', cursive;
-}
-
-#title {
-    margin-bottom: 20px;
-}
-
-#board {
-    display: grid;
-    grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(8, 80px);
-    gap: 0;
-    border: 4px solid #333;
-}
-
-.square {
-    width: 80px;
-    height: 80px;
-}
-
-.white {
-    background-color: white;
-}
-
-.black {
-    background-color: black;
-}
+   background-image: url("https://t3.ftcdn.net/jpg/07/35/44/76/360_F_735447660_Mb1mTmfff8EhrRuornYjGkE9JlGUk4lP.jpg");
+   font-family: Arial, sans-serif;
+ }
+ 
+ #container{
+   margin-top:20%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:5%;
+ }
+ 
+ .row{
+  position:relative;
+  margin-left:10%;
+  margin-right:10%;
+ }
+ 
+ .white{
+  border: 1px solid black;
+  width: 10%;
+  height: 60px;
+  background-color:white;
+  float:left;
+ }
+ 
+ .black{
+  border: 1px solid black;
+  width: 10%;
+  height: 60px;
+  background-color:#787878;
+  float:left;
+ }
+ 
+ #clear{
+   clear:both;
+ }
