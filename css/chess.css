@@ -1,6 +1,6 @@
 body {
     background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
-    background-size: cover; 
+    
 }
 
 #title {
@@ -26,7 +26,7 @@ img {
 }
 
 #container {
-    margin-top: 50%;
+    margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -40,9 +40,8 @@ img {
 
 .white, .black {
     border: 1px solid black;
-    width: 12.5%; 
+    width: 10%; 
     height: 60px;
-    box-sizing: border-box;
     float: left;
 }
 
@@ -60,8 +59,8 @@ img {
 
 #footer {
     border: solid 1px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
