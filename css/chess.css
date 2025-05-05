@@ -3,7 +3,7 @@ body {
     
 }
 
-#title {
+#title { <!-- this is the title style so that it is centered and correct font as well as size-->
     position: fixed;
     top: 0;
     left: 0;
@@ -19,45 +19,45 @@ body {
     font-size: 36px;
 }
 
-img {
+img { <--this is making sure all the images are on the chess board boxes where they should be-->
     margin-left: 5px;
     margin-top: 10px;
     vertical-align: middle; 
 }
 
-#container {
+#container { <!--making sure the actual chess board is in the center of the screen-->
     margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
 }
 
-.row {
+.row { <!-- all the rows in the correct spots-->
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.white, .black {
+.white, .black { <!--making the colors of the boxes be black and white so that when this is called it is one of them-->
     border: 1px solid black;
     width: 10%; 
     height: 60px;
     float: left;
 }
 
-.white {
+.white { <!-- white color-->
     background-color: white;
 }
 
-.black {
+.black { <!-- black color-->
     background-color: #787878;
 }
 
-.clear {
+.clear { <!--cleared at the end of each row so that rows dont overlap-->
     clear: both;
 }
 
-#footer {
+#footer { <!-- added correct format for footer-->
     border: solid 1px;
     padding: 10px;
     margin: 10px;
