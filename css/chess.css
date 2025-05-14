@@ -19,7 +19,7 @@ body {
     font-size: 36px;
 }
 
-img { <--this is making sure all the images are on the chess board boxes where they should be(Yuval)-->
+img { <!--this is making sure all the images are on the chess board boxes where they should be(Yuval)-->
     margin-left: 5px;
     margin-top: 10px;
     vertical-align: middle; 
